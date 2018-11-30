@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tyriq's resume</title>
+    <nav>
+      <ul>
+        <li><a href="resume.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</li>
+      </ul>
+    </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="resume.css">
+  </head>
+  <body>
+    <div class="logo">
+      <img src="http://i63.tinypic.com/rhmz2o.png">
+    </div>
+<br>
+      <p>At the age of 19 is where I came across computer programming for the first time. The algorithm of Youtube kept advertising videos about teaching code and learning code but i've came across a couple of big time youtube coding instructors and found it too difficult. The things about life is the reward gets louder than the hardwork so eventually after graduating my Young Adult Internship at Moshulu Montefiorre I've decided to take a intro to web development course at NYCDA. In this course my instructor Francis Adu taught the basics of HTML, CSS, and JAVASCRIPT. We were assigned multiple projects in order to pass the course and move on and graduate. It took determination as i was working full time as an account executive for Jam Factory HQ and studying part time as classes were evening courses from 6-9pm Monday-Thursday. A few projects later i hereby can state that i'm an Graduate of NYCDA and an alumni from the coding bootcamp I passed my course with an 85.77 avg and became founder of Investnfriend$. A web application that i created during my final project at NYCDA. Shortly after I came across OBT a non profit organization that helps individuals between the age of 16-24 work on their coding skills aswell as earn a stipend for completing tasks and working hard everyday. So far this program has been treating me nice and i'm growing everyday closer to becoming a full stack developer!</p>
+<br>
+<h1>Indeed Invitation For Diversity In Tech</h1><br>
+<div class="slideshow-container">
+<div class="mySlides fade">
+<div class="numbertext">1 / 2</div>
+<img src="http://i67.tinypic.com/ri4v91.jpg" style="width:80%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/45224998_2177620358964343_715555634711363584_o.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=08a1ba783033518485b9960f72a6aeb0&oe=5C6458F5" style="width:80%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<footer>
+  <nav>
+    <ul>
+      <li><a href="resume.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+      <a href="https://www.linkedin.com/in/tyriq-riggins-6389a8162/" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/stay.wya/" class="fa fa-instagram"></a>
+    &copy;
+  </nav>
+</footer>
+
+  </body>
+</html>

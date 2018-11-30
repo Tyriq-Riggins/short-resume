@@ -1,0 +1,33 @@
+body{
+  background-image: url("https://pbs.twimg.com/profile_images/941855825663889409/dKUNnXIt.jpg");
+  background-repeat:space;
+
+}
+form{
+  float: left;
+}
+nav{
+  margin-left: 700px;
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  color:white;
+}
+a:hover{
+  background-color: purple;
+}
+#logo{
+  margin-left: 500px;
+  height: 300px;
+}
+iframe{
+  margin-left: 300px;
+}
